@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="228" started-at="2018-12-19T03:17:59Z" finished-at="2018-12-19T03:17:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="228" started-at="2018-12-19T03:17:59Z" finished-at="2018-12-19T03:17:59Z">
+      <class name="TestNGDemo.Annotations2">
+        <test-method status="PASS" signature="tst2()[pri:1, instance:TestNGDemo.Annotations2@458c1321]" name="tst2" duration-ms="59" started-at="2018-12-19T08:47:59Z" finished-at="2018-12-19T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst2 -->
+        <test-method status="PASS" signature="tst4()[pri:2, instance:TestNGDemo.Annotations2@458c1321]" name="tst4" duration-ms="6" started-at="2018-12-19T08:47:59Z" finished-at="2018-12-19T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst4 -->
+        <test-method status="PASS" signature="tst3()[pri:0, instance:TestNGDemo.Annotations2@458c1321]" name="tst3" duration-ms="6" started-at="2018-12-19T08:47:59Z" depends-on-methods="TestNGDemo.Annotations2.tst4, TestNGDemo.Annotations2.tst2" finished-at="2018-12-19T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst3 -->
+        <test-method status="PASS" signature="tst1()[pri:3, instance:TestNGDemo.Annotations2@458c1321]" name="tst1" duration-ms="40" started-at="2018-12-19T08:47:59Z" finished-at="2018-12-19T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst1 -->
+        <test-method status="PASS" signature="tst5()[pri:4, instance:TestNGDemo.Annotations2@458c1321]" name="tst5" duration-ms="12" started-at="2018-12-19T08:47:59Z" finished-at="2018-12-19T08:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst5 -->
+      </class> <!-- TestNGDemo.Annotations2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
